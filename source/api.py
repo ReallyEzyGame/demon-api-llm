@@ -82,14 +82,16 @@ def generate_text(req: QueryRequest):
 # Cho phép uvicorn chạy ngầm trong Colab cell
 nest_asyncio.apply()
 
-# Hàm khởi động server
-def run_server():
-    uvicorn.run(app, host="127.0.0.1", port=8000, log_level="warning")
+# # Hàm khởi động server
+# def run_server():
+#     uvicorn.run(app, host="127.0.0.1", port=8000, log_level="warning")
 
-# Khởi động Server
-server_thread = threading.Thread(target=run_server, daemon=True)
-server_thread.start()
-
+# # Khởi động Server
+# server_thread = threading.Thread(target=run_server, daemon=True)
+# server_thread.start()
+# for running non-stop and giving API to outside cell
+if __name__ == '__main__':
+    uvicorn.run(app, host="127.0.0.1", port=8000)
 # Mô phỏng Server khởi động
 time.sleep(3)
 print("Server đã chạy tại http://127.0.0.1:8000")
