@@ -9,7 +9,7 @@ Model: Qwen-2.5-3B-Instruct
 
 # Demo API  
 Thực hiện trực tiếp trên file .ipynb  
-https://github.com/user-attachments/assets/74d8e781-66a9-41a2-aa05-19201c8371ce  
+<video src="https://github.com/user-attachments/assets/74d8e781-66a9-41a2-aa05-19201c8371ce" controls width="100%"></video>
 
 Thực hiện trên file main.ipynb kèm theo các script .py  
 [Cập nhật sau]
