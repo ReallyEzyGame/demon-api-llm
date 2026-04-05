@@ -1,5 +1,5 @@
-# demon-api-llm
-Đồ án thực hành Lab-1 thuộc môn Tư Duy Tính Toán 24CTT5
+# demon-api-llm\n
+Đồ án thực hành Lab-1 thuộc môn Tư Duy Tính Toán 24CTT5\n
 Sinh Viên thực hiện:
     - Họ và Tên: Lê Thanh Phong
     - MSSV: 24120409
