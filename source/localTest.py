@@ -20,3 +20,10 @@ print(f'Kết quả của "get": {response2.json()}\n')
 # kiểm tra 'get' health method
 response3 = requests.get(API_URL + "health")
 print(f'Kết quả của "get" health: {response3.json()}\n')
+print(f'Kết quả của "get" post: {response1.json()}')
+# Kiểm tra 'get' method
+response2 = requests.get(API_URL)
+print(f'Kết quả của "get": {response2.json()}')
+# kiểm tra 'get' health method
+response3 = requests.get(API_URL + "health")
+print(f'Kết quả của "get" health: {response3.json()}')
